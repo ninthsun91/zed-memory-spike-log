@@ -1,0 +1,534 @@
+2025-05-16T10:11:59+09:00 WARN  [project::lsp_store] unhandled capability registration: Registration { id: "586c2647-43bb-4dd8-8666-2ae56ce451ad", method: "workspace/didChangeWorkspaceFolders", register_options: Some(Object {}) }
+2025-05-16T10:11:59+09:00 INFO  [client] connected to rpc endpoint https://collab.zed.dev/rpc
+2025-05-16T10:12:00+09:00 INFO  [language] downloading language server "vtsls"
+2025-05-16T10:12:00+09:00 INFO  [rpc::peer] add_connection;
+2025-05-16T10:12:00+09:00 INFO  [client] set status on client 90693: Connected { peer_id: PeerId { owner_id: 768, id: 6614763 }, connection_id: ConnectionId { owner_id: 0, id: 0 } }
+2025-05-16T10:12:00+09:00 INFO  [lsp] starting language server process. binary path: "/Users/alice/.nvm/versions/node/v22.13.1/bin/node", working directory: "/Users/alice/Landing/Meshed/ai-api", args: ["/Users/alice/Library/Application Support/Zed/languages/vtsls/node_modules/@vtsls/language-server/bin/vtsls.js", "--stdio"]
+2025-05-16T10:12:00+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/common/types/api.ts",
+  "state": 1,
+  "validationTime": 1689
+}
+2025-05-16T10:12:00+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/auth/auth.controller.ts",
+  "state": 1,
+  "validationTime": 1687
+}
+2025-05-16T10:12:00+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 1684
+}
+2025-05-16T10:12:00+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/app.controller.ts",
+  "state": 1,
+  "validationTime": 1683
+}
+2025-05-16T10:12:00+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/imagen3/imagen3.controller.ts",
+  "state": 1,
+  "validationTime": 1683
+}
+2025-05-16T10:13:32+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/auth/auth.controller.ts",
+  "state": 1,
+  "validationTime": 22
+}
+2025-05-16T10:13:32+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/common/types/api.ts",
+  "state": 1,
+  "validationTime": 32
+}
+2025-05-16T10:13:32+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/app.controller.ts",
+  "state": 1,
+  "validationTime": 43
+}
+2025-05-16T10:13:32+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 68
+}
+2025-05-16T10:13:32+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/imagen3/imagen3.controller.ts",
+  "state": 1,
+  "validationTime": 83
+}
+2025-05-16T10:13:33+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/common/types/api.ts",
+  "state": 1,
+  "validationTime": 8
+}
+2025-05-16T10:13:33+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/app.controller.ts",
+  "state": 1,
+  "validationTime": 13
+}
+2025-05-16T10:13:33+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 30
+}
+2025-05-16T10:13:33+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/auth/auth.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:13:33+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/imagen3/imagen3.controller.ts",
+  "state": 1,
+  "validationTime": 55
+}
+2025-05-16T10:14:16+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 43
+}
+2025-05-16T10:14:16+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 68
+}
+2025-05-16T10:14:16+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 51
+}
+2025-05-16T10:14:17+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 50
+}
+2025-05-16T10:14:17+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 48
+}
+2025-05-16T10:14:17+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 63
+}
+2025-05-16T10:14:17+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 59
+}
+2025-05-16T10:14:18+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 30
+}
+2025-05-16T10:14:18+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 57
+}
+2025-05-16T10:14:18+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 51
+}
+2025-05-16T10:14:19+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 48
+}
+2025-05-16T10:14:20+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 61
+}
+2025-05-16T10:14:20+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 12
+}
+2025-05-16T10:14:25+09:00 WARN  [editor] timed out waiting for formatting
+2025-05-16T10:14:26+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 27
+}
+2025-05-16T10:14:27+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 62
+}
+2025-05-16T10:14:27+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 49
+}
+2025-05-16T10:14:28+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 50
+}
+2025-05-16T10:14:28+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 50
+}
+2025-05-16T10:14:28+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 44
+}
+2025-05-16T10:14:28+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:29+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 39
+}
+2025-05-16T10:14:29+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 21
+}
+2025-05-16T10:14:29+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:29+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 45
+}
+2025-05-16T10:14:29+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 42
+}
+2025-05-16T10:14:30+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 42
+}
+2025-05-16T10:14:30+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:30+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:31+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 10
+}
+2025-05-16T10:14:35+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 19
+}
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 42
+}
+2025-05-16T10:14:36+09:00 WARN  [editor] timed out waiting for formatting
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 42
+}
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 39
+}
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 42
+}
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 44
+}
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 48
+}
+2025-05-16T10:14:36+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 43
+}
+2025-05-16T10:14:38+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:38+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 41
+}
+2025-05-16T10:14:39+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 41
+}
+2025-05-16T10:14:39+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:39+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:40+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:40+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:40+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 42
+}
+2025-05-16T10:14:40+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:41+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 21
+}
+2025-05-16T10:14:41+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 41
+}
+2025-05-16T10:14:41+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 41
+}
+2025-05-16T10:14:41+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:42+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 39
+}
+2025-05-16T10:14:42+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:42+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:43+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:43+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 11
+}
+2025-05-16T10:14:46+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 22
+}
+2025-05-16T10:14:46+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:46+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:46+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 41
+}
+2025-05-16T10:14:47+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:47+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:47+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:48+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 20
+}
+2025-05-16T10:14:48+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:48+09:00 WARN  [editor] timed out waiting for formatting
+2025-05-16T10:14:48+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:48+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:49+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 39
+}
+2025-05-16T10:14:49+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 39
+}
+2025-05-16T10:14:49+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 38
+}
+2025-05-16T10:14:49+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 40
+}
+2025-05-16T10:14:50+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 37
+}
+2025-05-16T10:14:50+09:00 INFO  [lsp] Language server with id 2 sent unhandled notification eslint/status:
+{
+  "uri": "file:///Users/alice/Landing/Meshed/ai-api/src/ai-services/jootaek/jootaek.controller.ts",
+  "state": 1,
+  "validationTime": 9
+}
+2025-05-16T10:14:55+09:00 WARN  [editor] timed out waiting for formatting
+2025-05-16T10:15:13+09:00 ERROR [lsp] oneshot canceled
+2025-05-16T10:15:13+09:00 ERROR [lsp] oneshot canceled
