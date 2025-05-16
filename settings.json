@@ -1,0 +1,143 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "agent": {
+    "default_profile": "write",
+    "default_model": {
+      "provider": "google",
+      "model": "gemini-2.5-flash-preview-04-17"
+    },
+    // "default_model": {
+    //   "provider": "zed.dev",
+    //   "model": "claude-3-7-sonnet-latest"
+    // },
+    "version": "2"
+  },
+  "show_completions_on_input": true,
+  "show_edit_predictions": true,
+  "languages": {
+    "TSX": {
+      "show_edit_predictions": true
+    },
+    "TypeScript": {
+      "show_edit_predictions": true
+    }
+  },
+  "vim_mode": true,
+  "theme": "Catppuccin Latte - No Italics",
+  "ui_font_size": 14,
+  "buffer_font_size": 12.0,
+  "copilot": {
+    "disabled_globs": [".env", ".env*", "*.env"]
+  },
+  "relative_line_numbers": true,
+  "ui_font_family": "MesloLGS Nerd Font Mono",
+  "buffer_font_family": "MesloLGS Nerd Font Mono",
+  "env": {},
+  "file_types": {
+    "Shell Script": [".env", ".env.*"]
+  },
+  // "inlay_hints": {
+  //   "enabled": true,
+  //   "show_type_hints": true,
+  //   "show_parameter_hints": true,
+  //   "show_enum_member_value_hints": true
+  // },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": true,
+    "enable_preview_from_code_navigation": true
+  },
+  "lsp": {
+    "typescript-language-server": {
+      "initialization_options": {
+        "preferences": {
+          "includeInlayParameterNameHints": "all",
+          "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+          "includeInlayFunctionParameterTypeHints": true,
+          "includeInlayVariableTypeHints": true,
+          "includeInlayVariableTypeHintsWhenTypeMatchesName": false,
+          "includeInlayPropertyDeclarationTypeHints": true,
+          "includeInlayFunctionLikeReturnTypeHints": true,
+          "includeInlayEnumMemberValueHints": true
+        }
+      }
+    },
+    "rust-analyzer": {
+      "initialization_options": {
+        "rust": {
+          "analyzeTargetDir": true
+        },
+        "inlayHints": {
+          "maxLength": null,
+          "lifetimeElisionHints": {
+            "useParameterNames": true,
+            "enable": "skip_trivial"
+          },
+          "closureReturnTypeHints": {
+            "enable": "always"
+          }
+        }
+      }
+    }
+  },
+  "language_overrides": {
+    "JavaScript": {
+      "tab_size": 2,
+      "format_on_save": "off"
+    },
+    "TypeScript": {
+      "tab_size": 2,
+      "preferred_line_length": 120,
+      "format_on_save": "off",
+      "formatter": {
+        "external": {
+          "command": "./node_modules/.bin/eslint",
+          "arguments": ["--fix", "--stdin", "--stdin-filename", "{buffer_path}"]
+        },
+        "code_actions": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": true
+        }
+      },
+      "inlay_hints": {
+        "enabled": true
+      }
+    },
+    "TSX": {
+      "tab_size": 2,
+      "preferred_line_length": 120,
+      "format_on_save": {
+        "code_actions": {
+          "source.fixAll.eslint": true
+        }
+      },
+      "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true
+      }
+    },
+    "Rust": {
+      "tab_size": 4,
+      "inlay_hints": {
+        "enabled": true,
+        "show_type_hints": true,
+        "show_parameter_hints": true,
+        "show_enum_member_value_hints": true
+      }
+    }
+  }
+}
